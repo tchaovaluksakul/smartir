@@ -1,0 +1,128 @@
+{
+  "manufacturer": "Daikin",
+  "supportedModels": [
+    "FTE09LV2S"
+  ],
+  "supportedController": "Broadlink",
+  "commandsEncoding": "Base64",
+  "minTemperature": 18.0,
+  "maxTemperature": 30.0,
+  "precision": 1.0,
+  "operationModes": [
+    "cool",
+    "dry",
+    "fan_only"
+  ],
+  "fanModes": [
+    "auto",
+    "quiet",
+    "low",
+    "medium",
+    "high",
+    "turbo"
+  ],
+  "commands": {
+    "off": "JgBMAaZGCzoLFgsXCxYLOgwWCxcKFwwWCzoLFgs7CzoLFgs6CzoMOgs6CzoKFwsXCjsMFgoXCxcKFwsXChcLOws6CzoLOgs6CxcKOws6CxYLFwoXCxcLFwsWCxcKFwsXChcLFwsXCjsLOgs6CzoLFwoXCxcKFwsAA8elRgs6CxcKFwsXCjsLFwoXCxcKFws6DBYKOws6DBYKOws6CzoLOgw5DBYKFws6CxcLFwoXCxcKFwsXCxYLFwsXChcLOgw5CxcKGAs6ChcLOgw5CxcKGAoXChgKOws6CxYLFwo7DBYLFgwWCjsKOws6CzoLFwoXCxcKFwsXChgKFwoYChcLFwoXCxcKFwsXCxcKFwsXChcLFwo7CjsKFwsXChgKFws6CxcKOwoXCxcKFwsXCxcKFwsXCzoKFwsXChcLFwoYChcLFwoXCzoMOQsXCxcLAA0FAAAAAAAAAAAAAAAA",
+    "cool": {
+      "auto": {
+		"18": "JgBMAaZGCzoKFwsXChgKOwoXCxcKFwsXCjsLFwo7CjsLFwo7CzoKOws6CzoLFwoXCzoMFgoXCxcLFwoXCxcKOwo7CzoLOgs6CxcKOwo7ChcLFwsXChcLFwoXCxcKFwsXChgKFwsXCjsKOws6CjsLFwoXCxcKFwsAA8elRgs6CxcKFwsXCjsKFwsXCxcKFwo7CxcKOws6ChcLOws6CzoLOgs6CxYLFws6CxcKFwsXChcLFwoXCxcKGAoXCxcKOwo7ChcLFws6CxcKOwo7CjsKFwsXChgKOwo7ChcLFwo7ChgKFwsXCjsKOws6CjsLFwoXCxcKFwsXChcLFwoXDBYLFwoXCxcKFwsXChcLFwoYChcLFwoXCzoLFwoXCxcKGAs6ChcLOgsXChcLFwoXCxcKGAsWCzoLFwoXCxcKFws6CxcLFwo7ChcLOgsXChcMAA0FAAAAAAAAAAAAAAAA",
+        "19": "JgBMAaVHCjsKFwsXChcLOgsXChgKFwsXCjsKFws6CzsKFws6CzoLOgs6CzsKFwsXCjsKFwsXChgKFwoYChcLOgs6CzoLOwo7ChcLOgs6CxcKGAoXCxcKFwsXChgLFgoXCxcKGAoXCjsLOgs6CzoLFwsXChcLFwoAA8ekRwo7ChgKFwoYCjsKFwsXChcLFwo7ChgKOwo7ChcLOgs7CjsLOgo7ChcLFwo7CxcLFwsWChcLFwoYChcKGAoXCxcJPAo7ChcLGAs5CxcKOwo7CjsKFwsXChgKOwo7ChcLFwo7ChgKFwsXCjsKOwo7CjsKGAoXChgKFwsXChcLFwoYCRgKGAoYCxYKFwsXChcLFwoZCjoKFwsXCjsKGAoXChgKFws6CxcJPAoYChcKGAoXCxcKFwsXCjsKGAkYChgKFwo7CzoLFwo7ChgKOwoXCxcKAA0FAAAAAAAAAAAAAAAA",
+        "20": "JgBMAaZFDDkMFgwWCxYLOgwWCxcLFgsXCzoLFgs6DDkMFgo7DDkMOQw5DDkMFgoYCjsLFgwWChcMFgsXCxYLOgs6DDkMOQw5DBYLOgw5DBYLFgsXChcMFgoYChcLFwoXCxcLFgsXCjsMOQw5DDkMFgsWCxcKFwsAA8elRQw6CxYLFwsWDDkLFwoYChcKGAo7CxYLOgw5DBYKOws6CzoLOgw5DBYKFws6DBYLFwoXCxcKFwsXChcLFwsXCxYLOgw5CxcLFgs6DBYKOww5DDkMFgoXCxcKOwo7DBYKFws6DBYKFwsXCjsMOQs6DDkMFgoYCxYKGAsWCxcKFwwWCxYLFwoXCxcKGAoXCxcKFwsXCxYLOgwWCjsLFwoXCxcKFws6CxcKOwsWCxcKGAoXCxcKFwsXCjsLFgsXChgKFwo7CxcKOws6CxYLOgsXDBULAA0FAAAAAAAAAAAAAAAA",
+		"21": "JgBMAaZGDDkLFwsWCxcKOwsXCxYLFwoXCzoMFgo7CjsLFws6CjsLOgw5DDkMFgsWDDkMFgsXChcMFgoXCxcKOws6CjsMOQs6DBYLOgo7CxcLFgsXChcLFwoYChcLFwoXCxcKFwsXCzoLOgs6CzoMFgoXCxcLFgsAA8elRgs6CxYLFwoYCjsLFgsXChcLFwo7CxcKOws6ChcLOgw6CzoLOgs6CxYLFwo7CxcKFwsXChcLFwoYChcLFwoXCxcLOgs6CxcKFws6CxcKOws6CzoLFwoXCxcKOws6CxcKFws6DBYKFwsXCjsLOgs6CzoLFwoXCxcKFwwWChgKFwsXChcLFwoXCxcKFwsXChgKFwsXCjsLOgsWCzoMFgsXChcLFwo7ChcLOgwWCxcKFwsXChcLFwoXCzsLFgsXChcMFgo7CzoLOgw5CxcKOwsWCxcKAA0FAAAAAAAAAAAAAAAA",
+		"22": "JgBMAaVHCzoLFwsWDBYLOgsWDBYLFwsWCzoLFws6CzoLFg05CzoLOgs6CzoLFwsWDDkMFgsWDBYLFwsWCxcLOgs6CzoLOgs6CxcLOgs6CxYLFwsXCxYLFwsWDBYLFgsXCxcLFgsXCzoLOgw5CzoLFwsWDBYLFgwAA8WlRgw5DBYLFwsWDDkMFgsWDBYLFws6CxYLOgs6DBYLOgs6DTgNOAw5DBYLFws6CxYLFwsWDBYLFgwWCxYMFgsXCxYMOQw5DBYLFww5CxYMOQw5DTgMFgsXCxYMOQw5CxcLFgw6CxYLFwsWDDkNOAw6CzoLFgwWCxYMFgsXCxYLFwsWDBYLFgwWCxYMFgsXCxYLFwsWDBYKFww5DDoLFgsXCxYMFgs6CxcLOQwWChgLFgwWChcMFgsWDDkMFgsXCxYMFgs6CxYMFgsXCzoLOgwVDBYLAA0FAAAAAAAAAAAAAAAA",
+		"23": "JgBMAaZGCjsKGAoXChgKOwoXCxcKFwsXCjsKGAo7CjsKFww5CzsKOwo7CjsKFwsXCjsLFwoXCxcKFwsXChcLOwo7CjsKOwo7ChcLOgs7ChcKGAoXCxcKFwsXChcLFwoYChcKGAoXCzoLOgs6CzsKFwsXChcLFwoAA8elRgo7ChcLFwoYCjsKFwsXChcLFwo7ChgKOwo7ChcLOgs6CzoLOwo7ChcMFgo7ChcLFwoYChcLFwoXCxcKFwsXChgKOwo7ChcLFwo7ChcLOwo7CjsKFwsXChgLOgo7ChcLFwo7CxYLFwoYCjsKOwo7CjsKGAsWCxcKFwsXCxYLFwoXCxcKGAoXCxcKFwsXChcLFwoYCjsKFws6CzoMFgoXCxcKGAo7ChcLOgsXChcLFwoYChcLFwoXCzoLFwoXDBYKGAo7CjsKFwsXCjsKOwoYChcLAA0FAAAAAAAAAAAAAAAA",
+		"24": "JgBMAaZFCzoLFwoYChcLOgwWChcLFwoYCjsKFws6CzoLFwo7CzoLOgw5DDkMFgoYCjsLFgsXChcLFwoXCxcKOws6CzoMOQs6CxcKOwo7DBYKFwsXChcLFwoYChcLFwoXCxcKFwsXCzoKOws6CzoLFwoXDBYKFwsAA8alRgs6DBYKFwsXCjsLFwoXCxcLFgs6CxcKOwo7CxcKOws6CjsKOws6CxcKFww5CxcKFwsXChcLFwsXChcLFwoXCxcKOws6ChgKFws6CxcKOwo7CzoLFwoXCxcKOwo7CxYLFwo7CxcKFwsXCjsKOws6CzoLFwoXCxcKFwsXChcLFwoXCxcLFwoXCxcKFwsXChcMFgoYChcLOgs6CzoLFwoXCxcKFws7CxYLOgsXChcLFwoXCxcKGAoXCzoLFwoXCxcKFws6CxcLOgsXCjsLOgoXCxcKAA0FAAAAAAAAAAAAAAAA",
+		"25": "JgBMAaZGCzoLFgwWCxcKOwsWCxcKFwwWCzoLFws6CzoLFgs6DDkMOgs6CzoLFgsXCjsLFwoXCxcKFwwWCxYLOwo7CzoLOgs6DBYKOws6CxYMFgoYChcLFwoXCxcLFgsXChcLFwoYCjsKOws6CzoLFwoXCxcKFwwAA8WlRgw5DBYKGAoXCzoMFgsWCxcLFgs7ChcLOgw5DBYKOws6CzoLOgs6DBYKFws7ChcLFwoXCxcKFwsXChgKFwoYChcKOww5DBYKFws7ChcLOgw5DDkMFgoXCxcKOws6CxcKFws6CxcKFwsXCjsLOgw5DDkLFwoXCxcKGAoXCxcKFwsXChcMFgoYChcKGAoXCxcKFwsXCjsLOgs6CzoMFgoXCxcKFws6DBYKOwoYChcLFwoXCxcLFgwWCzoLFwsWCxcKFws6DDkMOgsWCzoMOQwWChcLAA0FAAAAAAAAAAAAAAAA",
+		"26": "JgBMAaZGCjsKGAoXChgKOwoXCxcKGAsWCjsLFwo7CjsKFws7CjsKOwo7CjsKGAoXCjsLFwoXCxcKFwsXChgKOwo7CjsKOwo7ChgKOwo7ChcLFwkYCxcKGAoXCxcKFwsXChgLFgoYCjsKOwo7CjsKFwoYChgJGAoAA8elRgo7CxcKFwoYCjsKGAkYChgKFws6CxcKOwo7CxcJPAo7CjsKOwo7CxcJGAs6CxcKGAkZCxYJGAsXCRkLFgoYCRkLOQo7CxcKFwo7CxcKOws6CzoLFwoYCRgKOwo7CxcKFws7CRgKGAoXCzoLOgs6CjwKFwoYChcKGQoWCxcJGQsWChgKFwoYChcLFwkYCxcKGAsWChcLFwoYCRgKOwsXChcKGAo7ChgJPAoXCxcKFwsXChgLFgoZCjoJGAoZCxYLFgo7ChgKFwo7CzoLOgsXChgKAA0FAAAAAAAAAAAAAAAA",
+		"27": "JgBMAaZGDDkMFgoXDBYKOwwWCxYLFwoXCzoMFgo7CzoMFgo7CzoMOQw5CzoMFgoXCzoMFgoYChcLFwoXCxcKOws6CzoMOQw5DBYKOws6ChgKFwsXCxYMFgsWCxcKGAoXCxcKFwsXCjsLOgs6CzoMFgoXCxcKFwsAA8elRgs6CxYLFwoYCjsLFgwWChcLFwo7CxcKOws6CxYLOgw6CzoLOgo7CxYLFws6CxcLFgwWChcLFwoXCxcLFwoXCxcKOwo7CxYLFwo7CxcKOws6CzoLFwoXCxcKOws6CxYLFwo7CxcKFwwWCjsLOgs6CzoLFwsWChgKFwwWChcLFwoXCxcKGAoXCxcKFwsXChcLFwsWCzsKFwsXChcLOgsXCxcKFwo7CxcKOwsWCxcKFwsXCxcKFwsXCjsLFgsXCxcKFwo7DDkMFgo7CjsLOgsWCxcKAA0FAAAAAAAAAAAAAAAA",
+		"28": "JgBMAadFDDkMFgsWDBYLOgwWCxYMFgsWDDkMFgs6DDkMFgs6CzoMOQw5DDkMFgsXCzoLFgwWCxYMFgsXCxYLOgw5DDkMOQw6CxYMOQw5DBYLFgwWCxcLFgwWCxYMFgsWDBYLFwsWCzoLOgw5DDkMFgsXCxYMFgsAA8alRgs6DBYLFgwWCzoLFwsWDBYLFgw5DBYLOgs6DBYLOgs6CzoMOQw5DBYLFgw6CxYMFgsWDBYKFwwWCxcLFgsXCxYMOQw5DBYLFws6CxYMOQw5DDkMFgsXCxYLOgw5DRULFgw5DBYLFwsWDDkMOQw5DDoLFgsXCxYMFgsWDBYLFgwWCxcLFgwWCxYMFgsWDBYLFwsWCxcLOgsWDBYLOgsWDBYLFws6CxYMOQwWCxYMFgwWCxYMFgsWDDkMFgsXCxYLFws6CxYMOQw5DDoLOgsWDBYLAA0FAAAAAAAAAAAAAAAA",
+		"29": "JgBMAaVGDTgNFQsXCxYMOQwWCxYMFgsWDDkMFgs6CzoMFgs6CzoNOA04DDkMFgsWDDkMFgsXCxYLFwsWDBYLOgs6CzoLOgw5DBYLOgs6CxcLFgwWCxYNFQsWDBYLFwsWCxcLFgwWCzoLOgs6DTgMFgsWDBYLFgwAA8WmRQw5DBYLFwsWCzoMFgsWDBYLFgw5DBYMOQw5DBYLOgs6CzoLOgw5DBYLFgw5DBYLFwsWCxcLFgwWCxYMFgsWDBYLOgs6DBYLFgw5DBYLOgs6DDkMFgsWDBYLOgs6CxcLFgs6CxcLFgwWCzoLOgs6CzoLFwsWDRULFgwWCxYMFgsXCxYMFgsWDBYLFgwWCxcLFgsXCzoLOgsWDBYLOgsXCxYLFwo7CxYMOQwWCxcLFgoYCxYLFwsWDDkMFgsWDBYLFws6CzoLOgs6CzoLOgsXChcMAA0FAAAAAAAAAAAAAAAA",
+		"30": "JgBMAaZGCzoLFgsXChgKOwsWCxcLFgwWCjsLFwo7CzoLFgs6DDoLOgs6CzoLFgsXCjsLFwoXCxcKFwsXCxcKOwo7CzoLOgw5CxcKOwo7CxcKFwsXCxYLFwsWCxcKFwsXChgKFwsXCjsLOgs6CzoLFwsWCxcKFwsAA8ekRgw6CxYLFwoXCzoLFwoYChcLFwo7CxYLOws6CxYLOgs6DDkMOgo7ChcLFwo7CxYLFwoYChcLFwoXCxcKFwsXChgKOwo7CxYLFws6CxcKOws6CzoLFgsXChgKOws6ChcLFws6ChgKFwsXCjsLOgs6CjsLFwsWChgKFwsXChcLFwoXCxcKFwsXChgKFwsXChcMFgoXCxcKGAo7CxYLOgwWChcLFwo7ChgKOwsWCxcKFwsXChcLFwoYCjsLFgsXChcLFws6CxYLFwsXChcLFwo7ChcMAA0FAAAAAAAAAAAAAAAA",
+       },
+      "quiet": {
+		"18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": "",
+        "25": "",
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+      },
+      "low": {
+		"18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": "",
+        "25": "",
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+       },
+      "medium": {
+		"18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": "",
+        "25": "",
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+      },
+      "high": {
+		"18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": "",
+        "25": "",
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+      },
+      "turbo": {
+		"18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": "",
+        "25": "",
+        "26": "",
+        "27": "",
+        "28": "",
+        "29": "",
+        "30": ""
+      }
+    },
+    "dry": "",
+    "fan_only": {
+      "auto": "",
+      "quiet": "",
+      "low": "",
+      "medium": "",
+      "high": "",
+      "turbo": "",
+    }
+  }
+}
